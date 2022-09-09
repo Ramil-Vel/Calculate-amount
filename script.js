@@ -10,7 +10,7 @@ function showTip(e) {
 
 
 function calculateAmount(e) {
-    e.preventDefault(); //чтоб не перезагружалось
+    e.preventDefault(); 
     const bill = document.querySelector("#bill").value;
     const people = document.querySelector("#people").value;
     const tip = document.querySelector("#tip").value;
